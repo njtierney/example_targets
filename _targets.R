@@ -21,7 +21,7 @@ tar_plan(
   
   tar_parquet(
     gap_parquet,
-    write_arrow_loudly(
+    write_parquet(
       gap_data,
       "data/gap_data.parquet"
     )
