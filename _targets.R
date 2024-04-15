@@ -17,6 +17,14 @@ tar_plan(
     gap_csv,
     write_csv_loudly(gap_data,
                      "data/gap_data.csv")
+  ),
+  
+  tar_parquet(
+    gap_parquet,
+    write_arrow_loudly(
+      gap_data,
+      "data/gap_data.parquet"
+    )
   )
 # target = function_to_make(arg), ## drake style
 

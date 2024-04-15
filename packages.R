@@ -1,4 +1,5 @@
 ## library() calls go here
+library(arrow)
 library(conflicted)
 library(dotenv)
 library(targets)
