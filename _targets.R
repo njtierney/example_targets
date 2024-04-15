@@ -15,7 +15,8 @@ tar_plan(
   tar_render(explore, "doc/explore.Rmd"),
   tar_file(
     gap_csv,
-    write_csv_loudly(gap_data),
+    write_csv_loudly(gap_data,
+                     "data/gap_data.csv")
   )
 # target = function_to_make(arg), ## drake style
 

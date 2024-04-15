@@ -1,8 +1,10 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
 explore|stem||d634f67c8f1e31b2|4745aa592080ea1d|-1246299048||t19208.143849188s||0|file|local|vector|||0.319||The path is not in a git repository
 fit_lm_gapminder|function|8505b5566769cbb6|||||||||||||||
-gap_data|stem|28ca6bfa907aedc3|3b95fce3aaf76c46|0c632a8702859541|764964660||t19208.1426001315s|61078d3fc57d2ae0|28449|rds|local|vector|||0.022||
+gap_csv|stem|cf8583562ec4cfc4|352f9d664c3a22d4|84737e80f8a68aa2|144173819|data/gap_data.csv|t19828.9859601492s|df0affab7cb01db5|90915|file|local|vector|||0.141||
+gap_data|stem|13d42ce2a582b6bf|3b95fce3aaf76c46|0c632a8702859541|1200326766||t19828.9855246931s|45a048d89d501465|28450|rds|local|vector|||0.016||
 gg_gapminder|function|f27f9cf8f5827ae2|||||||||||||||
 lm_gapminder|stem|47d6ce2819b1b84c|38c7c07b096ed63b|c7018f6bc210f07d|-538219781||t19208.1440843795s|99b9d6fdf68e5184|320291|rds|local|vector|||0.033||
 read_gapminder|function|b5a065d00ef82fc0|||||||||||||||
-tidy_lm|function|f828354c15f6c983|||||||||||||||
+tidy_lm|function|8b43f552a55627fd|||||||||||||||
+write_csv_loudly|function|86d74021f4271a8c|||||||||||||||
